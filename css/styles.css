@@ -1,0 +1,241 @@
+/* Colores */
+
+:root{
+    --black-color: #000000;
+    --gray-dark: #333333;
+    --blur-dark: #1E4770;
+    --white: #FFFFFF;
+    --light-gray: #CCCCCC;
+    --golden: #FFD700;
+}
+
+/* Estilos globales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-variation-settings: "slnt" -8;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color: var(--black-color);
+    width: 95%;
+    margin: auto;
+}
+
+.text-golden{
+    color: var(--golden)
+}
+
+/* Encabezado */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_image{
+    width: 120px;
+    height: 120px;
+}
+
+.box_image img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    height: 60px;
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: var(--golden);
+}
+
+#sidebar-active{
+    display: none;
+}
+
+.open-sidebar-button, .close-sidebar-button{
+    display: none;
+}
+
+/* Sobre mi */
+
+.main_sections{
+    margin-top: 50px;
+}
+
+.section_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.box_about_img{
+    max-width: 100%;
+}
+
+.box_about_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.box_about_paragraph{
+    width: 80%;
+    text-align: center;
+}
+
+.box_about_paragraph p{
+    color: var(--white);
+    font-size: 22px;
+}
+
+.box_icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px auto;
+}
+
+.box_icons svg:hover{
+    stroke: var(--golden);
+}
+
+/* Medida 667 pixeles */
+
+@media(max-width: 667px){
+    
+}
+
+@media(max-width: 1023px){
+
+    /* Diseño responsive para la barra de navegacón */
+    .links-container{
+        flex-direction: column;
+        align-items: flex-start;
+
+        position: fixed;
+        top: 0;
+        right: -120%;
+        z-index: 10;
+        width: 300px;
+        background: var(--black-color);
+        box-shadow: 10px 10px 75px 2px rgba(255,255,255,0.63);
+        transition: 0.75s ease-out;
+    }
+
+    nav a{
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+    }
+
+    .open-sidebar-button, .close-sidebar-button{
+        padding: 20px;
+        display: block;
+    }
+
+    #sidebar-active:checked ~ .links-container{
+        right: 0;
+    }
+
+    #sidebar-active:checked ~ #overlay{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+
+    /* Responsive sobre mi */
+
+    .box_about_paragraph{
+        width: 60%;
+        text-align: center;
+    }
+    
+    .box_about_paragraph p{
+        color: var(--white);
+        font-size: 23px;
+    }
+}
+
+@media(min-width: 1440px){
+
+    /* Responsive del navegador */
+
+    
+
+    /* Caja de las secciones */
+
+    .main_sections{
+        width: 85%;
+        margin: 40px auto;
+    }
+
+    /* Responsive sobre mi */
+    
+    .section_about{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .box_text{
+        display: flex;
+        align-items: center;
+    }
+
+    .box_about_img{
+        width: 62%;
+    }
+
+    .box_about_img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .box_about_paragraph{
+        width: 50%;
+        text-align: center;
+    }
+    
+    .box_about_paragraph p{
+        color: var(--white);
+        font-size: 32px;
+    }
+}

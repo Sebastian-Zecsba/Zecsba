@@ -121,9 +121,9 @@ nav a:hover{
 }
 
 .box_icons{
-    width: 40%;
+    width: 62%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 25px auto;
 }
 
@@ -173,6 +173,12 @@ nav a:hover{
         top: 0;
         left: 0;
         z-index: 9;
+    }
+}
+
+@media(min-width: 668px){
+    .box_icons{
+        width: 30%;
     }
 }
 

@@ -111,11 +111,11 @@ nav a:hover{
 }
 
 .box_about_paragraph{
-    width: 80%;
+    width: 90%;
     text-align: center;
 }
 
-.box_about_paragraph p{
+.box_text p{
     color: var(--white);
     font-size: 22px;
 }
@@ -134,13 +134,8 @@ nav a:hover{
 /* Medida 667 pixeles */
 
 @media(max-width: 667px){
-    
-}
-
-@media(max-width: 1023px){
-
-    /* Diseño responsive para la barra de navegacón */
-    .links-container{
+     /* Diseño responsive para la barra de navegacón */
+     .links-container{
         flex-direction: column;
         align-items: flex-start;
 
@@ -179,6 +174,9 @@ nav a:hover{
         left: 0;
         z-index: 9;
     }
+}
+
+@media(min-width: 1023px){
 
     /* Responsive sobre mi */
 
@@ -194,10 +192,6 @@ nav a:hover{
 }
 
 @media(min-width: 1440px){
-
-    /* Responsive del navegador */
-
-    
 
     /* Caja de las secciones */
 

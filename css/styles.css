@@ -24,7 +24,6 @@
 
 body{
     background-color: var(--black-color);
-    width: 95%;
     margin: auto;
 }
 
@@ -38,11 +37,19 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    z-index: 100;
+    background-color: var(--black-color);
 }
 
 .box_image{
-    width: 120px;
+    width: 150px;
     height: 120px;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: var(--black-color);
 }
 
 .box_image img{
@@ -51,11 +58,11 @@ body{
 }
 
 nav{
-    height: 60px;
     background-color: var(--black-color);
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    width: 100%;
+    z-index: 1; 
 }
 
 .links-container{
@@ -63,12 +70,13 @@ nav{
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 nav a{
     height: 100%;
-    padding: 0 20px;
+    padding: 20px 20px;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -91,7 +99,8 @@ nav a:hover{
 /* Sobre mi */
 
 .main_sections{
-    margin-top: 50px;
+    width: 95%;
+    margin: 200px auto;
 }
 
 .section_about{
@@ -607,7 +616,7 @@ nav a:hover{
 
     .main_sections{
         width: 85%;
-        margin: 40px auto;
+        margin: 140px auto;
     }
 
     /* Responsive sobre mi */

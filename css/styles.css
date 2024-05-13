@@ -129,6 +129,7 @@ nav a:hover{
 
 .box_icons svg{
     transition: 0.25s;
+    cursor: pointer;
 }
 
 .box_icons svg:hover{
@@ -307,6 +308,51 @@ nav a:hover{
     color: var(--golden);
 }
 
+/* Seccion Reseñas */
+
+.box_reviews{
+    width: 380px;
+    margin: 30px auto;
+    background: var(--gray-dark);
+    border-radius: 30px;
+    box-shadow: 0px 4px 3px var(--golden);
+    padding: 5px;
+}
+
+.box_reviews_header{
+    display: flex;
+}
+
+.box_reviews_header_img{
+    width: 100px;
+}
+
+.box_reviews_header_img img{
+    width: 100%;
+    border-radius: 60px;
+}
+
+.box_reviews_header_text{
+    padding: 17px;
+}
+
+.box_reviews_header_text h2{
+    color: var(--golden);
+}
+
+.box_reviews_header_text p{
+    color: var(--light-gray);
+}
+
+.box_reviews_paragraph{
+    padding: 10px;
+}
+
+.box_reviews_paragraph p{
+    color: var(--white);
+    font-size: 1.1rem;
+}
+
 /* Medida 667 pixeles */
 
 @media(max-width: 667px){
@@ -437,6 +483,21 @@ nav a:hover{
         margin-right: 9px;
     }
 
+    /* Responsive reseñas */
+
+    .box_container_reviews{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box_reviews{
+        width: 400px;
+    }
+
+    .box_reviews_paragraph p{
+        font-size: 1.2rem;
+    }
 }
 
 @media(min-width: 1023px){
@@ -495,6 +556,49 @@ nav a:hover{
     .form{
         width: 100%;
     }
+
+    /* Responsive reseñas */
+
+    .box_container_reviews{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .box_reviews_header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box_reviews_header_img{
+        width: 110px;
+    }
+
+    .box_reviews_header_text{
+        margin-left: 10px;
+    }
+
+
+    .box_reviews_header_text h2{
+        font-size: 1.7rem;
+    }
+
+    .box_reviews_header_text p{
+        font-size: 1.3rem;
+    }
+
+    .box_reviews{
+        margin: 70px 0px;
+        width: 45%;
+        padding: 20px;
+    }
+
+    .box_reviews_paragraph p{
+        font-size: 1.2rem;
+        margin-top: 25px;
+    }
 }
 
 @media(min-width: 1440px){
@@ -537,5 +641,48 @@ nav a:hover{
     .box_about_paragraph p{
         color: var(--white);
         font-size: 32px;
+    }
+
+    /* Responsive reseñas */
+
+    .box_container_reviews{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .box_reviews_header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box_reviews_header_img{
+        width: 140px;
+    }
+
+    .box_reviews_header_text{
+        margin-left: 10px;
+    }
+
+
+    .box_reviews_header_text h2{
+        font-size: 1.7rem;
+    }
+
+    .box_reviews_header_text p{
+        font-size: 1.3rem;
+    }
+
+    .box_reviews{
+        margin: 70px 0px;
+        width: 40%;
+        padding: 20px;
+    }
+
+    .box_reviews_paragraph p{
+        font-size: 1.5rem;
+        margin-top: 25px;
     }
 }

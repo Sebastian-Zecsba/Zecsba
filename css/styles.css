@@ -311,7 +311,7 @@ nav a:hover{
 /* Seccion Reseñas */
 
 .box_reviews{
-    width: 380px;
+    width: 350px;
     margin: 30px auto;
     background: var(--gray-dark);
     border-radius: 30px;

@@ -57,7 +57,7 @@ body{
     height: 100%;
 }
 
-nav{
+.box_header_nav{
     background-color: var(--black-color);
     display: flex;
     justify-content: flex-end;
@@ -74,7 +74,7 @@ nav{
     align-items: center;
 }
 
-nav a{
+.box_header_nav a{
     height: 100%;
     padding: 20px 20px;
     display: flex;
@@ -84,7 +84,7 @@ nav a{
     text-transform: uppercase;
 }
 
-nav a:hover{
+.box_header_nav a:hover{
     color: var(--golden);
 }
 
@@ -326,6 +326,11 @@ nav a:hover{
     border-radius: 30px;
     box-shadow: 0px 4px 3px var(--golden);
     padding: 5px;
+    transition: transform 0.5s;
+}
+
+.box_reviews:hover{
+    transform: scale(1.1);
 }
 
 .box_reviews_header{
@@ -362,6 +367,55 @@ nav a:hover{
     font-size: 1.1rem;
 }
 
+/* Sección Proyectos */
+
+.box_proyects{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.box_proyects_img{
+    width: 320px;
+    height: 320px;
+    margin: auto;
+}
+
+.box_proyects_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.box_proyects_text h2{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 25px 0px;
+}
+
+.box_proyects_text p{
+    color: var(--light-gray);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.box_proyects_nav{
+    display: flex;
+    justify-content: center;
+}
+
+.box_proyects_nav a{
+    color: var(--golden);
+    font-size: 1.2rem;
+    padding: 15px;
+    text-decoration: none;
+    transition: transform 0.25s;
+}
+
+.box_proyects_nav a:hover{
+    transform: scale(1.1);
+}
+
 /* Medida 667 pixeles */
 
 @media(max-width: 667px){
@@ -380,7 +434,7 @@ nav a:hover{
         transition: 0.75s ease-out;
     }
 
-    nav a{
+    .box_header_nav a{
         box-sizing: border-box;
         height: auto;
         width: 100%;
@@ -507,6 +561,31 @@ nav a:hover{
     .box_reviews_paragraph p{
         font-size: 1.2rem;
     }
+
+    /* Responsive proyects */
+
+    .box_proyects_img{
+        width: 400px;
+        height: 400px;
+        margin: auto;
+    }
+
+    .box_proyects_text{
+        width: 60%;
+        margin: auto;
+    }
+    
+    .box_proyects_text h2{
+        font-size: 2.4rem;
+    }
+
+    .box_proyects_text p{
+        font-size: 1.6rem;
+    }
+
+    .box_proyects_nav a{
+        font-size: 1.5rem;
+    }
 }
 
 @media(min-width: 1023px){
@@ -607,6 +686,55 @@ nav a:hover{
     .box_reviews_paragraph p{
         font-size: 1.2rem;
         margin-top: 25px;
+    }
+
+    /* Responsive proyects */
+
+    .box_proyects{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .box_proyects_img{
+        width: 550px;
+        height: 550px;
+        margin: 0;
+    }
+    
+    .box_proyects_text{
+        display: flex;  
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px 30px;
+        width: 45%;
+    }
+
+    .box_proyects_text h2{
+        text-align: start;
+        font-size: 3.2rem;
+        margin: 40px 0px;
+    }
+    
+    .box_proyects_text p{
+        text-align: start;
+        color: var(--light-gray);
+        font-size: 2.1rem;
+        margin-bottom: 15px;
+    }
+
+    .box_proyects_nav{
+        display: flex;
+        justify-content: start;
+        gap: 8px;
+    }
+    
+    .box_proyects_nav a{
+        color: var(--golden);
+        font-size: 1.6rem;
+        padding: 15px 25px 15px 0px;
+        text-decoration: none;
+        transition: transform 0.25s;
     }
 }
 

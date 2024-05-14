@@ -317,6 +317,37 @@ body{
     color: var(--golden);
 }
 
+#button{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.error{
+    margin-top: 9px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background: var(--golden);
+    color: var(--black-color);
+}
+
+.form_text_button{
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border-radius: 15px;
+    border: 2px solid var(--golden);
+    color: var(--golden);
+}
+
+.form_text_button:hover{
+    background: var(--golden);
+    color: var(--black-color);
+    cursor: pointer;
+}
+
 /* Seccion Reseñas */
 
 .box_reviews{

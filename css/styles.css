@@ -24,6 +24,7 @@
 
 html {
     scroll-behavior: smooth;
+    scrollbar-color: var(--golden) var(--black-color);
 }
 
 
@@ -50,8 +51,8 @@ body{
 }
 
 .box_image{
-    width: 150px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     padding: 20px;
     margin-left: 10px;
     background-color: var(--black-color);
@@ -81,7 +82,7 @@ body{
 
 .box_header_nav a{
     height: 100%;
-    padding: 20px 20px;
+    padding: 15px 15px;
     display: flex;
     align-items: center;
     text-decoration: none;

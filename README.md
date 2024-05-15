@@ -1,4 +1,5 @@
 
+
 # Zecsba 
 
 Proyecto final de mi portafolio, Sebastián, el cual tomó semana y media de desarrollo. Incluye el diseño en Figma y el desarrollo con las tecnologías HTML, CSS y JavaScript.
@@ -8,7 +9,7 @@ Proyecto final de mi portafolio, Sebastián, el cual tomó semana y media de des
 
 Este proyecto es un portafolio personal que muestra mis habilidades en el ambito del desarrollo web y los proyectos que he podido realizar a lo largo de mi carrera.
 
-## Color Reference
+## Paleta de Colores
 
 Se uso esta paleta de colores para el proyecto que se muestra
 
@@ -28,11 +29,11 @@ Las tecnologias usadas para este proyecto fueron lenguajes de programacion y alg
 
 **Lenguajes de programacion:** HTML, CSS, JavaScript
 
-**Librerias** Sweet Alert y EmailJs
+**Librerias:** Sweet Alert y EmailJs
 
 **Hosting:** Vercel
 
-**Dominio** Namecreap.com
+**Dominio:** Namecreap.com
 
 
 ## Como usar y revisar mi proyecto
@@ -52,4 +53,6 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [mi
 ## Authors
 
 - [@Zecsba](https://github.com/Sebastian-Zecsba)
+
+
 

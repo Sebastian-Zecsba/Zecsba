@@ -37,6 +37,11 @@ body{
     color: var(--golden)
 }
 
+
+#about, #skills, #contact, #proyects,#reviews{
+    scroll-margin-top: 100px;
+}
+
 /* Encabezado */
 
 .header{
@@ -106,7 +111,7 @@ body{
 
 .main_sections{
     width: 95%;
-    margin: 200px auto;
+    margin: 140px auto;
 }
 
 .section_about{

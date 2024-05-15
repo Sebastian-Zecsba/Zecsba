@@ -22,6 +22,11 @@
     letter-spacing: 1px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body{
     background-color: var(--black-color);
     margin: auto;
@@ -62,7 +67,7 @@ body{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    z-index: 1; 
+    z-index: 1;
 }
 
 .links-container{

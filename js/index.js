@@ -4,11 +4,12 @@ const inputName = document.querySelector('#from_name')
 const inputEmail = document.querySelector('#email_id')
 const inputMessage = document.querySelector('#message')
 
+const header = document.querySelector('.header')
+
 eventListener()
 function eventListener () {
     form.addEventListener('submit', validateForm)
 }
-
 
 function validateForm (e){
     e.preventDefault();

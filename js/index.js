@@ -6,9 +6,59 @@ const inputMessage = document.querySelector('#message')
 
 const header = document.querySelector('.header')
 
+const boxProjects = document.querySelector('#proyects')
+
 eventListener()
 function eventListener () {
+    document.addEventListener('DOMContentLoaded', () => {
+        fetchData().then(data => {
+            useData(data)
+        })
+    })
     form.addEventListener('submit', validateForm)
+}
+
+async function fetchData(){
+
+    let data = []
+
+    try {
+        const response = await fetch('./data/dataProjects.json')
+        const dataFetch = await response.json()
+        data = dataFetch
+    } catch (error) {
+        console.log(error)
+    }
+
+    return data;
+}
+
+function useData(data){
+    console.log(data)
+
+    data.forEach(data => {
+
+        const { image, nameProject, description, linkCode, linkProject } = data
+
+        const projectElement = document.createElement('div')
+        projectElement.innerHTML = `
+            <div class="box_proyects">
+                <div class="box_proyects_img">
+                    <img src=${image} alt="Zecsba proyect">
+                </div>
+                <div class="box_proyects_text">
+                    <h2 class="text-golden">${nameProject}</h2>
+                    <p class="box_proyect_text">${description}</p>
+
+                    <nav class="box_proyects_nav">
+                        <a href=${linkCode} target="_blank">Ver Código</a>
+                        <a href=${linkProject} target="_blank">Ver Proyecto</a>
+                    </nav>
+                </div>
+            </div>
+        `
+        boxProjects.appendChild(projectElement)
+    });
 }
 
 function validateForm (e){

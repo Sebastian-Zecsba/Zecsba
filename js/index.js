@@ -13,8 +13,8 @@ function eventListener () {
     document.addEventListener('DOMContentLoaded', () => {
         fetchData().then(data => {
             useData(data)
+            initializeSwiper()
         })
-        initializeSwiper()
     })
     form.addEventListener('submit', validateForm)
 }
@@ -35,8 +35,6 @@ async function fetchData(){
 }
 
 function useData(data){
-    console.log(data)
-
     data.forEach(data => {
 
         const { image, nameProject, description, linkCode, linkProject } = data
@@ -122,7 +120,8 @@ function initializeSwiper() {
             clickable: true,
         },
         autoplay: {
-            delay: 5000,
+            delay: 3000,
+            disableOnInteraction: false
         },
     });
 }

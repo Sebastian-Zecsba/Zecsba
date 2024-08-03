@@ -1,0 +1,23 @@
+[
+    {
+        "nameProject": "Veterinary",
+        "description": "Website made using React.js and Tailwind for the frontend. Node.js and MongoDB were also used for the backend.",
+        "linkCode": "https://github.com/Sebastian-Zecsba/apv-frontend",
+        "linkProject": "https://apv-frontend-theta-silk.vercel.app/",
+        "image": "../assets/proyectOne.png"
+    },
+    {
+        "nameProject": "Uptask",
+        "description": "Website made using Typescript for Frontend and Backend. Using React, TalwindCSS, Node.js, Exprees and MongoDB technologies.",
+        "linkCode": "https://github.com/Sebastian-Zecsba/uptask-frontend",
+        "linkProject": "https://uptask-frontend-two.vercel.app/auth/login",
+        "image": "../assets/proyectTwo.png"
+    },
+    {
+        "nameProject": "E - Commerce",
+        "description": "Website made with educational approach for the creation of an e-commerce site for my school.",
+        "linkCode": "https://github.com/Sebastian-Zecsba/ecommerceAcademlo",
+        "linkProject": "https://ecommerce-academlo-three.vercel.app/",
+        "image": "../assets/proyectThree.png"
+    }
+]

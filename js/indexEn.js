@@ -24,15 +24,16 @@ async function fetchData(){
     let data = []
 
     try {
-        const response = await fetch('./data/dataProjects.json')
+        const response = await fetch('../data/dataProjectsEn.json')
         const dataFetch = await response.json()
         data = dataFetch
     } catch (error) {
         console.log(error)
     }
-
+    
     return data;
 }
+
 
 function useData(data){
     data.forEach(data => {
@@ -51,8 +52,8 @@ function useData(data){
                     <p class="box_proyect_text">${description}</p>
 
                     <nav class="box_proyects_nav">
-                        <a href=${linkCode} target="_blank">Ver Código</a>
-                        <a href=${linkProject} target="_blank">Ver Proyecto</a>
+                        <a href=${linkCode} target="_blank">Watch Code</a>
+                        <a href=${linkProject} target="_blank">Watch Website</a>
                     </nav>
                 </div>
             </div>
@@ -71,7 +72,7 @@ function validateForm (e){
 
     if([inputName.value, inputEmail.value, inputMessage.value].includes('')){
         const box = document.createElement('div')
-        box.textContent = `Todos los campos son obligatorios`
+        box.textContent = `All fields are required`
         // box.classList.add('text-golden')
         box.classList.add('error')
 
@@ -91,8 +92,8 @@ function sendEmail(){
     .then(() => {
         let timerInterval;
         Swal.fire({
-        title: "Enviando Correo",
-        html: "Responderemos los mas rapido posible",
+        title: "Sending Mail",
+        html: "We will respond as soon as possible",
         timer: 2000,
         timerProgressBar: true,
             didOpen: () => {
@@ -111,8 +112,6 @@ function sendEmail(){
 function initializeSwiper() {
     new Swiper('.swiper-container', {
         loop: true,
-        slidesPerView: 1,
-        spaceBetween: 10,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',

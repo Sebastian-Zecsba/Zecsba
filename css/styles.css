@@ -37,8 +37,11 @@ body{
     color: var(--golden)
 }
 
+#proyects{
+    scroll-margin-top: 200px;
+}
 
-#about, #skills, #contact, #proyects,#reviews, #inicio{
+#about, #skills, #contact, #reviews, #inicio{
     scroll-margin-top: 100px;
 }
 
@@ -153,6 +156,43 @@ body{
 }
 
 .box_icons svg:hover{
+    stroke: var(--golden);
+    transform: scale(1.3);
+    transition: 0.25s;
+}
+
+.text-white{
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.text-language{
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.text-language:hover{
+    color: var(--golden);
+}
+
+.box_resumes{
+    display: flex;
+}
+
+.resumes{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.resumes svg{
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.resumes svg:hover{
     stroke: var(--golden);
     transform: scale(1.3);
     transition: 0.25s;
@@ -468,8 +508,8 @@ body{
     transform: scale(1.1);
 }
 
-
 .swiper-container {
+    position: relative; /* Establece el contenedor padre como relativo */
     width: 100%;
     height: 100%;
     overflow: hidden; 
@@ -481,6 +521,15 @@ body{
     align-items: center;
     width: 100%;
     box-sizing: border-box;
+}
+
+.handAnimation {
+    position: absolute;
+    right: 10px; 
+    top: 40px;
+    width: 100px; 
+    height: auto; 
+    z-index: 2; 
 }
 
 /* Medida 667 pixeles */

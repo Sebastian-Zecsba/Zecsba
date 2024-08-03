@@ -14,6 +14,7 @@ function eventListener () {
         fetchData().then(data => {
             useData(data)
         })
+        initializeSwiper()
     })
     form.addEventListener('submit', validateForm)
 }
@@ -41,6 +42,7 @@ function useData(data){
         const { image, nameProject, description, linkCode, linkProject } = data
 
         const projectElement = document.createElement('div')
+        projectElement.classList.add('swiper-slide');
         projectElement.innerHTML = `
             <div class="box_proyects">
                 <div class="box_proyects_img">
@@ -105,5 +107,22 @@ function sendEmail(){
         })
     }, (err) => {
         alert(JSON.stringify(err));
+    });
+}
+
+function initializeSwiper() {
+    new Swiper('.swiper-container', {
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 5000,
+        },
     });
 }

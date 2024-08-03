@@ -4,20 +4,20 @@
         "description": "Página web realiza usando React.js y Tailwind para el frontend. También se usó Node.js y MongoDB para el backend.",
         "linkCode": "https://github.com/Sebastian-Zecsba/apv-frontend",
         "linkProject": "https://apv-frontend-theta-silk.vercel.app/",
-        "image": "./assets/proyectOne.png"
+        "image": "assets/proyectOne.png"
     },
     {
         "nameProject": "Uptask",
         "description": "Página web realiza usando Typescript para el Frontend y Backend. Usando las tecnologias, React, TalwindCSS, Node.js, Exprees y MongoDB.",
         "linkCode": "https://github.com/Sebastian-Zecsba/uptask-frontend",
         "linkProject": "https://uptask-frontend-two.vercel.app/auth/login",
-        "image": "./assets/proyectTwo.png"
+        "image": "assets/proyectTwo.png"
     },
     {
         "nameProject": "E - Commerce",
-        "description": "Página web realiza con enfoque educativo para la creación de un e-commerce impuesto por mi escuela.",
+        "description": "Pagina web realiza con enfoque educativo para la creacion de un e-commerce inpuesto por mi escuela.",
         "linkCode": "https://github.com/Sebastian-Zecsba/ecommerceAcademlo",
         "linkProject": "https://ecommerce-academlo-three.vercel.app/",
-        "image": "./assets/proyectThree.png"
+        "image": "assets/proyectThree.png"
     }
 ]

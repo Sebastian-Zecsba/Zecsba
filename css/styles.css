@@ -181,19 +181,19 @@ body{
 }
 
 .line{
-    width: 100%; /* Anchura de las líneas */
-    height: 1px; /* Grosor de las líneas */
-    background-color: var(--white); /* Color de las líneas */
+    width: 100%;
+    height: 1px;
+    background-color: var(--white); 
 }
 
 .box_skills_technical{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     gap: 30px 0px;
 
     grid-template-areas: 
-    "title title"
+    "title title title"
     ;
 }
 
@@ -214,14 +214,22 @@ body{
     color: var(--white);
     text-align: center;
     margin-top: 10px;
+    font-size: 1rem;
+}
+
+.box_skills_icons p{
+    color: var(--light-gray);
+    text-align: center;
+    margin-top: 6px;
+    font-size: 0.8rem;
 }
 
 .box_skills_icon_img{
     display: flex;
     align-items: center;
     background-color: var(--gray-dark);
-    width: 140px;
-    height: 140px;
+    width: 110px;
+    height: 110px;
     padding: 15px;
     margin: auto;
     border-radius: 14px;
@@ -530,20 +538,34 @@ body{
     }
 
     .box_main_skills{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
     }
 
     .box_skills_technical{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
-        gap: 30px 0px;
+        gap: 0px 0px;
+    }
+
+    .box_skills_icons h2{
+        color: var(--white);
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .box_skills_icons p{
+        color: var(--light-gray);
+        text-align: center;
+        margin-top: 6px;
+        font-size: 0.9rem;
     }
 
     .box_skills_icon_img{
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
     }
 
     .box_skills_icon_img img{
@@ -648,9 +670,21 @@ body{
 
     /* Responsive Habilidades */
 
+    .box_main_skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box_skills_technical{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 0px 0px;
+    }
+
     .box_skills_icon_img{
-        width: 180px;
-        height: 180px;
+        width: 120px;
+        height: 120px;
     }
 
     .box_skills_icon_img img{

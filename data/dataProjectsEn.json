@@ -1,23 +1,44 @@
 [
     {
         "nameProject": "Veterinary",
-        "description": "Website made using React.js and Tailwind for the frontend. Node.js and MongoDB were also used for the backend.",
+        "description": "Web page created using React.js and Tailwind for the frontend. Node.js and MongoDB were also used for the backend.",
         "linkCode": "https://github.com/Sebastian-Zecsba/apv-frontend",
         "linkProject": "https://apv-frontend-theta-silk.vercel.app/",
         "image": "../assets/proyectOne.png"
     },
     {
         "nameProject": "Uptask",
-        "description": "Website made using Typescript for Frontend and Backend. Using React, TalwindCSS, Node.js, Exprees and MongoDB technologies.",
+        "description": "Web page created using TypeScript for the frontend and backend. Using the technologies React, TailwindCSS, Node.js, Express, and MongoDB.",
         "linkCode": "https://github.com/Sebastian-Zecsba/uptask-frontend",
         "linkProject": "https://uptask-frontend-two.vercel.app/auth/login",
         "image": "../assets/proyectTwo.png"
     },
     {
         "nameProject": "E - Commerce",
-        "description": "Website made with educational approach for the creation of an e-commerce site for my school.",
+        "description": "Web page created with an educational focus for the creation of an e-commerce imposed by my school.",
         "linkCode": "https://github.com/Sebastian-Zecsba/ecommerceAcademlo",
         "linkProject": "https://ecommerce-academlo-three.vercel.app/",
         "image": "../assets/proyectThree.png"
+    },
+    {
+        "nameProject": "Pokedex",
+        "description": "Web page consuming the Pokémon API to create a Pokedex.",
+        "linkCode": "https://github.com/Sebastian-Zecsba/pokemonAppAcademlo/tree/main",
+        "linkProject": "https://pokemon-app-academlo-9ra9ydo4j.vercel.app/",
+        "image": "../assets/proyectFour.png"
+    },
+    {
+        "nameProject": "Rick And Morty",
+        "description": "Web page consuming the Rick and Morty series API to search for all the characters in the series.",
+        "linkCode": "https://github.com/Sebastian-Zecsba/appRickAndMorty/tree/main",
+        "linkProject": "https://app-rick-and-morty-bme4qx4w0-sebastian-casallas-arias-projects.vercel.app/",
+        "image": "../assets/proyectFive.png"
+    },
+    {
+        "nameProject": "Weather App",
+        "description": "Web page that can identify your location and give you the weather information.",
+        "linkCode": "https://github.com/Sebastian-Zecsba/app-clima/tree/main",
+        "linkProject": "https://app-clima-six-kappa.vercel.app/",
+        "image": "../assets/proyectSix.png"
     }
 ]

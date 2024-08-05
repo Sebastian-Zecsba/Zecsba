@@ -1,23 +1,44 @@
 [
     {
         "nameProject": "Veterinaria",
-        "description": "Página web realiza usando React.js y Tailwind para el frontend. También se usó Node.js y MongoDB para el backend.",
+        "description": "Página web realizada usando React.js y Tailwind para el frontend. También se usó Node.js y MongoDB para el backend.",
         "linkCode": "https://github.com/Sebastian-Zecsba/apv-frontend",
         "linkProject": "https://apv-frontend-theta-silk.vercel.app/",
         "image": "assets/proyectOne.png"
     },
     {
         "nameProject": "Uptask",
-        "description": "Página web realiza usando Typescript para el Frontend y Backend. Usando las tecnologias, React, TalwindCSS, Node.js, Exprees y MongoDB.",
+        "description": "Página web realizada usando TypeScript para el frontend y backend. Usando las tecnologías React, TailwindCSS, Node.js, Express y MongoDB.",
         "linkCode": "https://github.com/Sebastian-Zecsba/uptask-frontend",
         "linkProject": "https://uptask-frontend-two.vercel.app/auth/login",
         "image": "assets/proyectTwo.png"
     },
     {
         "nameProject": "E - Commerce",
-        "description": "Pagina web realiza con enfoque educativo para la creacion de un e-commerce inpuesto por mi escuela.",
+        "description": "Página web realizada con enfoque educativo para la creación de un e-commerce impuesto por mi escuela.",
         "linkCode": "https://github.com/Sebastian-Zecsba/ecommerceAcademlo",
         "linkProject": "https://ecommerce-academlo-three.vercel.app/",
         "image": "assets/proyectThree.png"
+    },
+    {
+        "nameProject": "Pokedex",
+        "description": "Página web consumiendo la API de Pokémon para realizar una Pokedex",
+        "linkCode": "https://github.com/Sebastian-Zecsba/pokemonAppAcademlo/tree/main",
+        "linkProject": "https://pokemon-app-academlo-9ra9ydo4j.vercel.app/",
+        "image": "assets/proyectFour.png"
+    },
+    {
+        "nameProject": "Rick And Morty",
+        "description": "Página web consumiendo la API de la serie Rick and Morty para realizar una búsqueda de todos los personajes de la serie",
+        "linkCode": "https://github.com/Sebastian-Zecsba/appRickAndMorty/tree/main",
+        "linkProject": "https://app-rick-and-morty-bme4qx4w0-sebastian-casallas-arias-projects.vercel.app/",
+        "image": "assets/proyectFive.png"
+    },
+    {
+        "nameProject": "App Clima",
+        "description": "Página web que puede identificar el lugar en donde tú estás y te da la información del clima",
+        "linkCode": "https://github.com/Sebastian-Zecsba/app-clima/tree/main",
+        "linkProject": "https://app-clima-six-kappa.vercel.app/",
+        "image": "assets/proyectSix.png"
     }
 ]

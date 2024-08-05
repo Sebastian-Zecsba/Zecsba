@@ -24,14 +24,14 @@
         "nameProject": "Pokedex",
         "description": "Web page consuming the Pokémon API to create a Pokedex.",
         "linkCode": "https://github.com/Sebastian-Zecsba/pokemonAppAcademlo/tree/main",
-        "linkProject": "https://pokemon-app-academlo-9ra9ydo4j.vercel.app/",
+        "linkProject": "https://pokemon-app-academlo.vercel.app/",
         "image": "../assets/proyectFour.png"
     },
     {
         "nameProject": "Rick And Morty",
         "description": "Web page consuming the Rick and Morty series API to search for all the characters in the series.",
         "linkCode": "https://github.com/Sebastian-Zecsba/appRickAndMorty/tree/main",
-        "linkProject": "https://app-rick-and-morty-bme4qx4w0-sebastian-casallas-arias-projects.vercel.app/",
+        "linkProject": "https://app-rick-and-morty-blond.vercel.app/",
         "image": "../assets/proyectFive.png"
     },
     {

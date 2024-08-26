@@ -28,13 +28,6 @@
         "image": "../assets/proyectFour.png"
     },
     {
-        "nameProject": "Rick And Morty",
-        "description": "Web page consuming the Rick and Morty series API to search for all the characters in the series.",
-        "linkCode": "https://github.com/Sebastian-Zecsba/appRickAndMorty/tree/main",
-        "linkProject": "https://app-rick-and-morty-blond.vercel.app/",
-        "image": "../assets/proyectFive.png"
-    },
-    {
         "nameProject": "Weather App",
         "description": "Web page that can identify your location and give you the weather information.",
         "linkCode": "https://github.com/Sebastian-Zecsba/app-clima/tree/main",

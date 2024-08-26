@@ -465,6 +465,15 @@ body{
     margin-top: 30px;
 }
 
+.box_hits h2{
+    color: var(--white);
+}
+
+.box_hits p{
+    color: var(--golden);
+    font-size: 1.3rem;
+}
+
 .box_proyects_img{
     width: 320px;
     height: 320px;
